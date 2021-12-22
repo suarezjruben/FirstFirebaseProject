@@ -40,18 +40,25 @@
   </head>
   <body>
     <h1 id = "title">Hello Firebase World!</h1>
-    <p>--------------------------------------------------------------</p>
-    <h3>Cloud Firestore use example</h3>
-    <p>Enter new title: <input onchange="updatePost(event)"></p>
-    <p for="change-count">Number of times title has been changed:</p>
-    <p id="change-count"></p>
-    <p>--------------------------------------------------------------</p>
-    <h3>More Firestore use examples</h3>
-    <div id="store"></div>
-    <p>--------------------------------------------------------------</p>
-    <h3>Google login button example</h3>
-    <button onclick="googleLogin()">Login with Google</button>
-    <p>--------------------------------------------------------------</p>
+    <div style="border-top: solid black;">
+      <h3>Cloud Firestore use example</h3>
+      <p>Enter new title: <input onchange="updatePost(event)"></p>
+      <p for="change-count">Number of times title has been changed:</p>
+      <p id="change-count"></p>
+    </div>
+    <div style="border-top: solid black;">
+      <h3>More Cloud Firestore use examples (Store inventory)</h3>
+      <div id="store"></div>
+    </div>
+    <div style="border-top: solid black;">
+      <h3>Google login button example</h3>
+      <button onclick="googleLogin()">Login with Google</button>
+    </div>
+    <div style="border-top: solid black; border-bottom: solid black;">
+      <h3>Storage upload demonstration</h3>
+      <input type="file" onchange="uploadFile(this.files)">
+      <img id="impUpload" src="" width="100vw">
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
