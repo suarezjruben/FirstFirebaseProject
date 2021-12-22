@@ -1,4 +1,4 @@
-# FirstProject
+# First Firebase Project
 
 ## Firebase tools setup
 ```
