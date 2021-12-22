@@ -1,14 +1,22 @@
 # FirstProject
 
-# Installing firebase tools globally
-# $ npm install firebase-tools -g
+## Firebase tools setup
+```
+npm install firebase-tools -g
+```
 
-# Initialize a firebse project 
-# $ firebase init hosting
+### Initialize a firebse project
+```
+firebase init hosting
+```
 
-# Start application localy
-# $ firebase serve
+### Start application localy
+```
+firebase serve
+```
 
-# Start application on server (online)
-# $ firebse deploy
+### Start application on server (online)
+```
+firebse deploy
+```
 
